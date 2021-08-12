@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    width: 80rem;
+    height: 10rem;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+
+.header-left {
+    width: 40rem;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.header-info__text {
+    font-size: 1.3rem;
+    padding-top: 4rem;
+}
+
+.header-info p {
+    cursor: default
+}
+
+.img-logo {
+    height: 8rem;
+    width: 9rem;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.filter-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 42rem;
+    height: 2.4rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    color: rgb(230, 230, 230);
+    background-color: rgb(75, 75, 75);
+    border-radius: 4px;
+    padding-top: 12px;
+}
+
+.filter-list p {
+    cursor: pointer;
+}
+
+.navbar-items {
+    width: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.2rem;
+    align-items: center;
+}
+
+.navbar-items button {
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.add-btn {
+    background-color: rgb(66, 99, 168);
+    color: snow;
+    margin-right: 3rem;
+    font-size: 36px;
+    font-weight: 600;
+    border-radius: 80px;
+    width: 4.3rem;
+    height: 4rem;
+}
+
+.signin-btn {
+    background-color: orange;
+    border-radius: 12px;
+    height: 4rem;
+    width: 6.4rem;
+}
+
+.login-btn {
+    height: 4rem;
+    width: 6rem;
+    border-radius: 15px;
+    color: snow;
+    background-color: rgb(107, 172, 77);
+}
+
+.check-cart__btn {
+    position: fixed;
+    border-radius: 100px;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(255, 174, 81);
+    /* margin-top: 20px; */
+    margin: -40px
+}
