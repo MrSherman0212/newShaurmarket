@@ -1,0 +1,69 @@
+{
+  "admins": [],
+  "products": [
+    {
+      "title": "Шаурмяу",
+      "price": 110,
+      "category": "Шаурма",
+      "image": "https://agrarii.com/wp-content/uploads/2018/05/Kak-najti-kota-v-shaurme.jpg",
+      "description": "Мяу",
+      "id": 4
+    },
+    {
+      "title": "Шаверма",
+      "price": 150,
+      "category": "Шаурма",
+      "image": "https://freepikpsd.com/media/2019/10/kebab-png-2-Transparent-Images.png",
+      "description": "То же самое, что и шаурма, но вы из Питера",
+      "id": 5
+    },
+    {
+      "title": "Doner Kebab",
+      "price": 150,
+      "category": "Шаурма",
+      "image": "https://www.pngitem.com/pimgs/m/190-1904865_doner-kebab-png-shawarma-png-transparent-png.png",
+      "description": "То же самое, что шаурма, но вы из Германии",
+      "id": 6
+    },
+    {
+      "title": "",
+      "price": "",
+      "category": "Напитки",
+      "image": "",
+      "description": "",
+      "id": 7
+    },
+    {
+      "title": "",
+      "price": "",
+      "category": "Другое",
+      "image": "",
+      "description": "",
+      "id": 8
+    },
+    {
+      "title": "",
+      "price": "",
+      "category": "Напитки",
+      "image": "",
+      "description": "",
+      "id": 9
+    },
+    {
+      "title": "",
+      "price": "",
+      "category": "Напитки",
+      "image": "",
+      "description": "",
+      "id": 10
+    },
+    {
+      "title": "sher",
+      "price": "1",
+      "category": "Другое",
+      "image": "",
+      "description": "",
+      "id": 11
+    }
+  ]
+}
