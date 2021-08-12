@@ -137,14 +137,6 @@ const ClientContextProvider = ({ children }) => {
         }
     }
 
-    function makeOrder() {
-        localStorage.setItem("cart", null)
-        dispatch({
-            type: "MAKE_ORDER",
-            payload: 0
-        })
-    }
-
     return (
         <clientContext.Provider value={{
             products: state.products,
