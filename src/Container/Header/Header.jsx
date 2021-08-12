@@ -9,7 +9,7 @@ import { useAuth } from "../../Context/AuthContext"
 
 const Header = () => {
     const history = useHistory()
-    const { productsCountInCart } = useContext(clientContext)
+    const { productsCountInCart, getProducts } = useContext(clientContext)
     const [error, setError] = useState("")
     const { currentUser, logout } = useAuth()
 
@@ -31,6 +31,19 @@ const Header = () => {
         history.push("/login")
     }
 
+    function fetchProducts(params, value) {
+        let search = new URLSearchParams(history.location.search)
+        search.set(params, value)
+        let url = `${history.location.pathname}?${search.toString()}`
+        history.push(url)
+        getProducts(history)
+    }
+
+    function reset() {
+        history.push('/')
+        getProducts(history)
+    }
+
     return (
         <div className="container">
             <div className="header">
@@ -44,10 +57,10 @@ const Header = () => {
                     </div>
                     <div className="header-filter">
                         <ul className="filter-list">
-                            <p>шаурма</p>
-                            <p>напитки</p>
-                            <p>акции</p>
-                            <p>другое</p>
+                            <button value="Шаурма" onClick={(e) => fetchProducts("category", e.target.value)}>шаурма</button>
+                            <button value="Напитки" onClick={(e) => fetchProducts("category", e.target.value)}>напитки</button>
+                            <button value="Другое" onClick={(e) => fetchProducts("category", e.target.value)}>акции</button>
+                            <button onClick={reset}>Сбросить</button>
                         </ul>
                     </div>
                 </div>
