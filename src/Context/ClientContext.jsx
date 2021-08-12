@@ -135,17 +135,6 @@ const ClientContextProvider = ({ children }) => {
         }
     }
 
-    const loginUser = async (user, history) => {
-        try {
-            const res = await axios.post(`${AUTH_API}/login`, user)
-            console.log(res)
-            history.push('/')
-        }
-        catch {
-            alert("Введите верные данные")
-        }
-    }
-
     return (
         <clientContext.Provider value={{
             products: state.products,
