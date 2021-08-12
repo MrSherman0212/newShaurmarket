@@ -5,7 +5,7 @@ import { calcSubPrice, calcTotalPrice } from '../../helpers/function';
 import './Cart.css'
 
 const Cart = () => {
-    const { getCart, cartData, deleteCartProducts, changeCountProduct, productsCountInCart } = useContext(clientContext)
+    const { getCart, cartData, deleteCartProducts, changeCountProduct, makeOrder, productsCountInCart } = useContext(clientContext)
 
     useEffect(() => {
         getCart()
@@ -22,6 +22,7 @@ const Cart = () => {
 
     const history = useHistory()
     function handleClick() {
+        makeOrder()
         history.push('/')
     }
     console.log(cartData);
@@ -65,10 +66,13 @@ const Cart = () => {
                                     </tbody>
                                 </table>
                             </div>
-                            <div className="order-block">
+                            <form className="order-block">
                                 <h5>Сумма заказа: {calcTotalPrice(cartData)} сом</h5>
-                                <button className="order-btn" onClick={handleClick}>Оформить заказ</button>
-                            </div>
+                                <input type="text" name="" id="" placeholder="Ваше имя" />
+                                <input type="text" name="" id="" placeholder="Номер телефона" />
+                                <input type="text" name="" id="" placeholder="Ваш адрес" />
+                                <button type="submit" className="order-btn" onClick={handleClick}>Оформить заказ</button>
+                            </form>
                         </div>
                     ) : (
                         <h2>Упс, Вы еще ничего не добавили :D</h2>
