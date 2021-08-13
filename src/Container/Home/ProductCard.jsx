@@ -51,12 +51,12 @@ export default function ProductCard({ product }) {
             <CardMedia className={classes.image}
                 component="img"
                 alt="Нет изображения"
-                height="140"
+                height="200"
                 image={product.image}
                 title="Contemplative Reptile"
             />
             <CardContent className={classes.cartcontent} padding="0">
-                <Typography gutterBottom component="span">
+                <Typography gutterBottom component="span" style={{ fontWeight: 600 }}>
                     {product.title}
                 </Typography>
                 <div className="product-desc">
@@ -74,7 +74,6 @@ export default function ProductCard({ product }) {
                     <div className="product-cart">
                         <button
                             className="cart-btn"
-                            // color={checkProductInCart(product.id) ? "secondary" : "primary"}
                             style={checkProductInCart(product.id) ? { backgroundColor: "green", color: 'white' } : { backgroundColor: "orange" }}
                             onClick={() => addAndDeleteProductInCart(product)}>
                             {checkProductInCart(product.id) ? 'в корзине' : 'в корзину'}
