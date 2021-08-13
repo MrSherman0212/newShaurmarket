@@ -124,17 +124,6 @@ const ClientContextProvider = ({ children }) => {
         getCart()
     }
 
-    const registerUser = async (newUser, history) => {
-        try {
-            const res = await axios.post(`${AUTH_API}/registration`, newUser)
-            console.log(res);
-            history.push('/signin')
-        }
-        catch {
-            alert("Неправильная почта или пароль")
-        }
-    }
-
     return (
         <clientContext.Provider value={{
             products: state.products,
