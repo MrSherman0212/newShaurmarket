@@ -26,11 +26,11 @@
       "id": 6
     },
     {
-      "title": "",
-      "price": "",
+      "title": "Coca Cola",
+      "price": "60 сом",
       "category": "Напитки",
-      "image": "",
-      "description": "",
+      "image": "https://nambafood.kg/dish_image/97237.png",
+      "description": "Кока Кола 1л.",
       "id": 7
     },
     {
@@ -42,19 +42,19 @@
       "id": 8
     },
     {
-      "title": "",
+      "title": "Fanta",
       "price": "",
       "category": "Напитки",
-      "image": "",
-      "description": "",
+      "image": "https://nambafood.kg/dish_image/97238.png",
+      "description": "Фанта 1 л.",
       "id": 9
     },
     {
-      "title": "",
-      "price": "",
+      "title": "Bonaqua",
+      "price": "30 сом",
       "category": "Напитки",
-      "image": "",
-      "description": "",
+      "image": "https://nambafood.kg/dish_image/97243.png",
+      "description": "Бонаква 0.5 л",
       "id": 10
     },
     {
