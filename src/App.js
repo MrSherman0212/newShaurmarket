@@ -3,6 +3,7 @@ import Sidebar from './Container/Sidebar/Sidebar';
 import Routes from './Routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Media.css'
+import './Container/sherMedia.css'
 
 function App() {
   return (

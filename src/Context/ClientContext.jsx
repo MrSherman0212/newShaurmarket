@@ -22,8 +22,6 @@ const reducer = (state = INIT_STATE, action) => {
             return { ...state, productsCountInCart: action.payload }
         case "DELETE_CART_PRODUCT":
             return { ...state, productsCountInCart: action.payload }
-        case "MAKE_ORDER":
-            return { ...state, productsCountInCart: action.payload }
         default:
             return state
     }
@@ -137,14 +135,6 @@ const ClientContextProvider = ({ children }) => {
         }
     }
 
-    function makeOrder() {
-        localStorage.setItem("cart", null)
-        dispatch({
-            type: "MAKE_ORDER",
-            payload: 0
-        })
-    }
-
     return (
         <clientContext.Provider value={{
             products: state.products,
@@ -156,8 +146,7 @@ const ClientContextProvider = ({ children }) => {
             checkProductInCart,
             getCart,
             changeCountProduct,
-            deleteCartProducts,
-            makeOrder
+            deleteCartProducts
         }}>
             {children}
         </clientContext.Provider>
