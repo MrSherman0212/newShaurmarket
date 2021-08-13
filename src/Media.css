@@ -1,12 +1,7 @@
 @media all and (max-width: 1370px) {
     .cart {
-        position: fixed;
         top: 50px;
-        margin-left: 1020px;
-        width: 70px;
         border: none;
-        border-radius: 90px;
-        height: 70px;
         background-color: orange;
     }
     .product-list {
