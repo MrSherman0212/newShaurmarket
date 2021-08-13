@@ -16,13 +16,23 @@ const useStyles = makeStyles({
     root: {
         width: 240,
         marginTop: 25,
-        margin: 40
+        margin: 40,
+        ['@media all and (max-width:1024px)']: {
+            width: 200,
+            margin: 20
+        },
+        ['@media all and (max-width:768px)']: {
+            width: 160,
+            margin: 7
+        }
+    },
+    cartcontent: {
+        "&:last-child": {
+            paddingBottom: 0
+        }
     },
     image: {
         maxHeight: 180
-    },
-    price: {
-        fontSize: 20
     },
     color: {
         backgroundColor: '#fff176'
@@ -45,8 +55,8 @@ export default function ProductCard({ product }) {
                 image={product.image}
                 title="Contemplative Reptile"
             />
-            <CardContent padding="0">
-                <Typography gutterBottom variant="h5" component="h2">
+            <CardContent className={classes.cartcontent} padding="0">
+                <Typography gutterBottom component="span">
                     {product.title}
                 </Typography>
                 <div className="product-desc">

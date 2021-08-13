@@ -6,6 +6,7 @@
     padding: 10px;
     font-style: italic;
     font-weight: 200;
+    font-size: 100%;
 }
 
 .product-info {
@@ -15,7 +16,8 @@
 
 .product-price {
     height: 44px;
-    width: 100px;
+    width: 10vw;
+    font-size: 100%;
     padding-top: 10px;
     font-weight: 500;
     margin-left: -16px;
