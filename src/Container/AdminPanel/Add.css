@@ -2,15 +2,16 @@
     border: 2px rgb(190, 190, 190) solid;
     border-radius: 20px;
     height: 35rem;
-    padding: 50px;
+    padding: 30px;
     margin-top: 10%;
     display: flex;
     width: 500px;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .wrapper-img {
-    padding-left: 40px;
     width: 260px;
     height: 180px;
 }
@@ -18,4 +19,9 @@
 .wrapper-img img {
     height: 160px;
     width: 250px;
+}
+
+.edit-inputs {
+    display: flex;
+    flex-direction: column;
 }
