@@ -130,7 +130,6 @@ const ClientContextProvider = ({ children }) => {
             productsCountInCart: state.productsCountInCart,
             cartData: state.cartData,
             getProducts,
-            registerUser,
             addAndDeleteProductInCart,
             checkProductInCart,
             getCart,
