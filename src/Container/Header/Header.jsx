@@ -57,10 +57,10 @@ const Header = () => {
                     </div>
                     <div className="header-filter">
                         <ul className="filter-list">
-                            <button value="Шаурма" onClick={(e) => fetchProducts("category", e.target.value)}>шаурма</button>
-                            <button value="Напитки" onClick={(e) => fetchProducts("category", e.target.value)}>напитки</button>
-                            <button value="Другое" onClick={(e) => fetchProducts("category", e.target.value)}>акции</button>
-                            <button onClick={reset}>Сбросить</button>
+                            <button className="filter-btn" value="Шаурма" onClick={(e) => fetchProducts("category", e.target.value)}>шаурма</button>
+                            <button className="filter-btn" value="Напитки" onClick={(e) => fetchProducts("category", e.target.value)}>напитки</button>
+                            <button className="filter-btn" value="Другое" onClick={(e) => fetchProducts("category", e.target.value)}>акции</button>
+                            <button className="filter-btn" onClick={reset}>Сбросить</button>
                         </ul>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ const Header = () => {
                                 }
                             </Dropdown.Menu>
                         </Dropdown>
-                        <div>
+                        <div className="user-info">
                             {
                                 currentUser ? (<>
                                     {error && <Alert variant="danger">{error}</Alert>}

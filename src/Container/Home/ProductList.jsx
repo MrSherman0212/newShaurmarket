@@ -44,7 +44,7 @@ export default function ProductList() {
                             )
                         }
                     </div>
-                    <h2>Напитки</h2>
+                    <div className="product-title">Напитки</div>
                     <div className="drink-list__main">
                         {
                             products ? (
@@ -58,7 +58,7 @@ export default function ProductList() {
                             )
                         }
                     </div>
-                    <h2>Другое</h2>
+                    <div className="product-title">Другое</div>
                     <div className="other-list__main">
                         {
                             products ? (
