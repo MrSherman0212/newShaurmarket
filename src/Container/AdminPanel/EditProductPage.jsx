@@ -35,20 +35,24 @@ const EditProductPage = () => {
                 currentUser ? (
                     currentUser.email === 'sher@gmail.com' ? (
                         <>
-                            <div className="container">
+                            <div className="new-container">
                                 <div className="wrapper-add">
                                     <div className="wrapper-img">
                                         <img src={editProduct.image ? editProduct.image : "https://i.ytimg.com/vi/LYXnGiXxzlg/maxresdefault.jpg"} />
                                     </div>
-                                    <TextField value={editProduct.title} onChange={handleInput} name="title" label="title" />
-                                    <TextField value={editProduct.price} onChange={handleInput} name="price" label="price" />
-                                    <TextField value={editProduct.category} onChange={handleInput} name="category" label="category" />
-                                    <TextField value={editProduct.image} onChange={handleInput} name="image" label="image" />
-                                    <TextField value={editProduct.description} onChange={handleInput} name="description" label="description" />
+                                    <div className="edit-inputs">
+                                        <TextField value={editProduct.title} onChange={handleInput} name="title" label="title" />
+                                        <TextField value={editProduct.price} onChange={handleInput} name="price" label="price" />
+                                        <TextField value={editProduct.category} onChange={handleInput} name="category" label="category" />
+                                        <TextField value={editProduct.image} onChange={handleInput} name="image" label="image" />
+                                        <TextField value={editProduct.description} onChange={handleInput} name="description" label="description" />
+                                    </div>
+                                    <div>
+                                        <Button onClick={handleClick} variant="contained" color="primary">Save</Button>
+                                        <Button onClick={() => history.push('/')} variant="contained" color="secondary">Close</Button>
+                                    </div>
                                 </div>
                             </div>
-                            <Button onClick={handleClick} variant="contained" color="primary">Save</Button>
-                            <Button onClick={() => history.push('/')} variant="contained" color="secondary">Close</Button>
                         </>
                     ) : (<></>)
                 ) : (<></>)

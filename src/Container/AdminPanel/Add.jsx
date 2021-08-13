@@ -48,7 +48,7 @@ const Add = () => {
                 currentUser ? (
                     currentUser.email === 'sher@gmail.com' ? (
                         <>
-                            <div className="container">
+                            <div className="new-container">
                                 <div className="wrapper-add">
                                     <TextField value={newProduct.title} onChange={handleInput} name="title" label="title" />
                                     <TextField value={newProduct.price} onChange={handleInput} name="price" label="price" />

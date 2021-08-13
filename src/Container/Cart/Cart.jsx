@@ -41,12 +41,12 @@ const Cart = () => {
                                 <table className="cart-info">
                                     <thead>
                                         <tr>
-                                            <th>Изображение</th>
-                                            <th>Нзавание</th>
-                                            <th>Цена</th>
-                                            <th className="cart-inp__block">Кол-во</th>
-                                            <th>Сумма</th>
-                                            <th>Удалить</th>
+                                            <th className="th">Изображение</th>
+                                            <th className="th">Нзавание</th>
+                                            <th className="th">Цена</th>
+                                            <th className="th cart-inp__block">Кол-во</th>
+                                            <th className="th">Сумма</th>
+                                            <th className="th">Удалить</th>
                                         </tr>
                                     </thead>
                                     <tbody>
