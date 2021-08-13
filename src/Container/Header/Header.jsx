@@ -59,7 +59,7 @@ const Header = () => {
                         <ul className="filter-list">
                             <button className="filter-btn" value="Шаурма" onClick={(e) => fetchProducts("category", e.target.value)}>шаурма</button>
                             <button className="filter-btn" value="Напитки" onClick={(e) => fetchProducts("category", e.target.value)}>напитки</button>
-                            <button className="filter-btn" value="Другое" onClick={(e) => fetchProducts("category", e.target.value)}>акции</button>
+                            <button className="filter-btn" value="Другое" onClick={(e) => fetchProducts("category", e.target.value)}>другое</button>
                             <button className="filter-btn" onClick={reset}>Сбросить</button>
                         </ul>
                     </div>

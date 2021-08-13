@@ -2,48 +2,48 @@
   "admins": [],
   "products": [
     {
-      "title": "Шаурмяу",
-      "price": 110,
+      "title": "Шаурма с курицей",
+      "price": "130",
       "category": "Шаурма",
-      "image": "https://agrarii.com/wp-content/uploads/2018/05/Kak-najti-kota-v-shaurme.jpg",
-      "description": "Мяу",
+      "image": "https://donerking.by/upload/catalog/img400/1542057380_banditos_s_kuritsey.jpg",
+      "description": "Курица, овощи, чесночный соус",
       "id": 4
     },
     {
-      "title": "Шаверма",
-      "price": 150,
+      "title": "Шаурма с говядиной",
+      "price": "140",
       "category": "Шаурма",
-      "image": "https://freepikpsd.com/media/2019/10/kebab-png-2-Transparent-Images.png",
-      "description": "То же самое, что и шаурма, но вы из Питера",
+      "image": "https://donerking.by/upload/catalog/img400/1542057239_banditos_so_svininoy_melkaya.jpg",
+      "description": "Говядина, овощи, чесночный соус",
       "id": 5
     },
     {
-      "title": "Doner Kebab",
+      "title": "Шаурма ассорти",
       "price": 150,
       "category": "Шаурма",
-      "image": "https://www.pngitem.com/pimgs/m/190-1904865_doner-kebab-png-shawarma-png-transparent-png.png",
-      "description": "То же самое, что шаурма, но вы из Германии",
+      "image": "https://donerking.by/upload/catalog/img400/1538522516_kurinaya.jpg",
+      "description": "Говядина, курица, овощи, чесночный соус",
       "id": 6
     },
     {
       "title": "Coca Cola",
-      "price": "60 сом",
+      "price": "60",
       "category": "Напитки",
       "image": "https://nambafood.kg/dish_image/97237.png",
-      "description": "Кока Кола 1л.",
+      "description": "Кока Кола 1 л.",
       "id": 7
     },
     {
-      "title": "",
-      "price": "",
+      "title": "Бургер с курицей",
+      "price": "120",
       "category": "Другое",
-      "image": "",
-      "description": "",
+      "image": "https://donerking.by/upload/catalog/img400/1539252748_burger_s_kuritsey.jpg",
+      "description": "Свежий бургер с котлетой, кетчупом и овощами",
       "id": 8
     },
     {
       "title": "Fanta",
-      "price": "50000000000000",
+      "price": "60",
       "category": "Напитки",
       "image": "https://nambafood.kg/dish_image/97238.png",
       "description": "Фанта 1 л.",
@@ -51,19 +51,27 @@
     },
     {
       "title": "Bonaqua",
-      "price": "30 сом",
+      "price": "30",
       "category": "Напитки",
       "image": "https://nambafood.kg/dish_image/97243.png",
-      "description": "Бонаква 0.5 л",
+      "description": "Бонаква 0.5л",
       "id": 10
     },
     {
-      "title": "sher",
-      "price": "1",
+      "title": "Донер бокс с курицей",
+      "price": "150",
       "category": "Другое",
-      "image": "",
-      "description": "",
+      "image": "https://donerking.by/upload/catalog/img400/1539253210_s_kuritsey.jpg",
+      "description": "Курица, огурец соленый, кетчуп, майонез, лаваш",
       "id": 11
+    },
+    {
+      "title": "Шаурма с фалафелем",
+      "price": "140",
+      "category": "Другое",
+      "image": "https://donerking.by/upload/catalog/img400/1551432879_bez_imeni_4.jpg",
+      "description": "Фалафель, овощи, болгарский перец, грибы",
+      "id": 12
     }
   ]
 }

@@ -1,6 +1,12 @@
 .footer-main {
     background-color: rgb(44, 44, 44);
-    height: 200px;
+    height: 150px;
     width: 100%;
     margin-top: 50px;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 14vh;
+    color: whitesmoke;
 }
