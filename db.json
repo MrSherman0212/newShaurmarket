@@ -1,5 +1,4 @@
 {
-  "admins": [],
   "products": [
     {
       "title": "Шаурма с курицей",
@@ -54,7 +53,7 @@
       "price": "30",
       "category": "Напитки",
       "image": "https://nambafood.kg/dish_image/97243.png",
-      "description": "Бонаква 0.5л",
+      "description": "Бонаква 1л",
       "id": 10
     },
     {
@@ -72,6 +71,14 @@
       "image": "https://donerking.by/upload/catalog/img400/1551432879_bez_imeni_4.jpg",
       "description": "Фалафель, овощи, болгарский перец, грибы",
       "id": 12
+    },
+    {
+      "title": "s",
+      "price": "",
+      "category": "Шаурма",
+      "image": "",
+      "description": "",
+      "id": 14
     }
   ]
 }
